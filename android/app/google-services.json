@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "147181732952",
+    "project_id": "spell-book-695f6",
+    "storage_bucket": "spell-book-695f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147181732952:android:dcf4b9a4059cbfc2e6362d",
+        "android_client_info": {
+          "package_name": "com.hamunchi.spellbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147181732952-84d4i99b5qmdnbjjja3f9cgug9vm3c6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9NeYAjcOIXie4yDhne7k6j5AFsZgRgFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147181732952-84d4i99b5qmdnbjjja3f9cgug9vm3c6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
