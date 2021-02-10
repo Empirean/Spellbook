@@ -18,6 +18,7 @@ class _SpellsState extends State<Spells> {
   String _spellDescription = "";
   List<String> _spellTypes = ["Single Target", "Passive", "Area Target", "No Target"];
   String _spellType;
+  String _title = "New Spell";
 
   final _formKey = GlobalKey<FormState>();
   final _spellNameController = TextEditingController();
@@ -42,6 +43,7 @@ class _SpellsState extends State<Spells> {
         if (_entryType == dataEntryType.edit)
         {
           setState(() {
+            _title = "Edit Spell";
             _spellName = _spell.spellName;
             _spellNameController.text = _spell.spellName;
             _spellDescription = _spell.spellDescription;
@@ -68,7 +70,7 @@ class _SpellsState extends State<Spells> {
       return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.deepPurple,
-          title: Text("New Spell",
+          title: Text(_title,
             style: TextStyle(
               fontSize: 30,
             ),
